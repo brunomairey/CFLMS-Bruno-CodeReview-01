@@ -1,0 +1,141 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My first Website !</title>
+
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+<style type="text/css">
+	
+
+
+header {
+	position:fixed;
+	   z-index: 4;
+   border: 5px solid blue;
+   background-color: #CABBB7;
+   box-sizing: border-box;
+      margin: 0 auto;
+      padding:10px;
+       width: 100%;
+       height: 150px;
+             }
+   
+ 
+
+.colheader1 {
+   border: 5px solid green;
+   z-index: 1;
+   box-sizing: border-box;
+   float: left;
+   width: 66.6%;
+   padding:0px;
+     background-color: lightgray;
+   text-align: center;
+   vertical-align: center;
+   height:100px;
+}
+
+.colheader2 {
+   border: 5px solid red;
+   z-index: 2;
+   box-sizing: border-box;
+   float: left;
+   background-color: lightgray;
+   width: 33.3%;
+   padding:0px;
+      box-sizing: border-box;
+}
+
+.menu {
+	  border: 5px solid yellow;
+  z-index: 5;
+  box-sizing: border-box;
+   background-color: lightgray;
+   margin-bottom: 10px;
+   padding: 10px;
+   height: 50px;
+}
+
+.navbar {
+   padding: 10px;
+}
+
+.navbar a {
+   color: #333;
+   padding-right: 10px;
+}
+
+.columns {
+	position: absolute;
+}
+
+
+#footer {
+   height: 50px;
+   background-color: lightgray;
+   margin-top:8px;
+   padding:10px 0;
+   float: left;
+   width: 100%
+}
+
+
+</style>
+
+
+
+
+</head>
+<body>
+
+	<div class="container">
+		<header>
+			<div class="colheader">
+				<div class="colheader1">
+	          		<p><h3>Bruno Mairey Full Stack Web developer</h3></p>
+	      		</div>
+		   		<div class="colheader2">
+		      		 <p><img src="img/logo.png" alt="logo code factory" height=60% width=60% /></p>
+				</div>
+			</div> 
+			
+		</header>
+					
+    		
+       		
+       		<div class="menu">
+	       		<nav>
+	       			<ul class="navbar"
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">About me</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+       		</div>
+		
+	</div>
+       
+    <div id="columns">
+	  	<div class="col">
+	       	<p>Column One</p>
+	  	</div>
+	  	<div class="col">
+	    	<p>Column Two</p>
+		</div>
+		<div class="col1">
+	    	<p>Column Three</p>
+	 	</div>
+	</div>
+	
+
+	<div id="footer">
+		<p>&copy; Copyright 2011</p>
+	
+   
+
+</body>
+</html>
